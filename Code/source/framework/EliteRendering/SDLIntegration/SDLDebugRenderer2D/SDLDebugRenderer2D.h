@@ -8,10 +8,10 @@ DebugRenderer2D.h: OpenGL immediate 2D debug renderer, used for drawing 2D shape
 #define ELITE_SDL_RENDERER_2D_H
 
 //--- Includes ---
-#include "../../EDebugRenderer2D.h"
-#include "../../ERenderingTypes.h"
-#include "../../../EliteGeometry/EGeometry2DTypes.h"
-#include "../../Shaders.h"
+#include "framework/EliteRendering/EDebugRenderer2D.h"
+#include "framework/EliteRendering/ERenderingTypes.h"
+#include "framework/EliteGeometry/EGeometry2DTypes.h"
+#include "framework/EliteRendering/Shaders.h"
 
 namespace Elite
 {
